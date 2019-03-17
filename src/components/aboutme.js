@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
-import Experience from './experience';
 import Skills from './skills';
 
 
@@ -34,7 +33,7 @@ class About extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-     
+
           <Education
               startYear={2016}
               endYear={2019}
