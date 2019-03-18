@@ -14,7 +14,7 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>A computer science major at Southeastern Louisiana University who is very passionate about programming and is looking forward to getting an entry-level position to demonstrate own skills
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>A computer science major at Southeastern Louisiana University who is very passionate about programming and is looking forward to get an entry-level position.
              </p>
 
           </Cell>
