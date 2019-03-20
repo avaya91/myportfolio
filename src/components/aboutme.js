@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Skills from './skills';
-
+import CreditCardInput from 'react-credit-card-input';
 
 class About extends Component {
-  render() {
-    return(
+render() {
+  
+  return(
       <div>
         <Grid>
           <Cell col={4}>
@@ -19,7 +20,7 @@ class About extends Component {
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Avaya Dhakal</h2>
-            <h4 style={{color: 'grey'}}>Full Stack Developer</h4>
+            <h3 style={{color: 'grey'}}>Full Stack Developer</h3>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <p>In various project classes I took in my undergrad, I experienced working as Software developer, I was involved with project research, planning, design and testing within the Software Product Development. Through innovative thinking I used computer aided devices to perform routine calculations creating an efficient project development time line. During the design stage I met with the client provided by my professors to better understand their needs and perspectives. As I became more familiar with the needs of different kinds of clientele I suggested, implemented and maintained test procedures and test scripts for new products. I am graduating with a Bachelor of Computer Science with Math’s minor from Southeastern Louisiana University. My solid knowledge of computer software design and project development has given me the foundation to succeed in the software engineering industry. During my program I became interested in machine learning and artificial intelligence as well as its implementation on average consumers efficiency</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
@@ -43,7 +44,7 @@ class About extends Component {
            <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
-                skill="C#/Dot Net Core"
+                skill="C# / Dot Net Core"
                 progress={85}
                 />
                 <Skills
@@ -63,7 +64,13 @@ class About extends Component {
                         skill="Python"
                         progress={60}
                         />
-
+        <h3 style={{color: 'grey'}}>Buy me a coffee</h3>
+            <CreditCardInput
+                   cardNumberInputProps={{ value: cardNumber, onChange: this.handleCardNumberChange }}
+                   cardExpiryInputProps={{ value: expiry, onChange: this.handleCardExpiryChange }}
+                   cardCVCInputProps={{ value: cvc, onChange: this.handleCardCVCChange }}
+                   fieldClassName="login"
+            /> 
 
           </Cell>
         </Grid>
