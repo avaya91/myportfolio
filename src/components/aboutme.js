@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Skills from './skills';
-import CreditCardInput from 'react-credit-card-input';
 
 class About extends Component {
 render() {
@@ -64,15 +63,7 @@ render() {
                         skill="Python"
                         progress={60}
                         />
-        <h3 style={{color: 'grey'}}>Buy me a coffee</h3>
-            <CreditCardInput
-                   cardNumberInputProps={{ value: cardNumber, onChange: this.handleCardNumberChange }}
-                   cardExpiryInputProps={{ value: expiry, onChange: this.handleCardExpiryChange }}
-                   cardCVCInputProps={{ value: cvc, onChange: this.handleCardCVCChange }}
-                   fieldClassName="login"
-            /> 
-
-          </Cell>
+                                  </Cell>
         </Grid>
       </div>
     )
