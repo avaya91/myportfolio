@@ -17,18 +17,17 @@ class Resume extends Component {
     const { pageNumber, numPages } = this.state;
 
     return (
-    <div className="pdf-view">
-        <nav>
-          <button onClick={this.goToPrevPage}>Prev</button>
-          <button onClick={this.goToNextPage}>Next</button>
-        </nav>
-
+    <div className="pdf-view"
+    style={{
+      position: 'absolute', left: '50%', top: '90%',
+      transform: 'translate(-50%, -50%)'
+    }}>
         <div className="pdf-view">
           <Document
             file="/myPDF.pdf"
             onLoadSuccess={this.onDocumentLoadSuccess}
           >
-            <Page pageNumber={pageNumber} width={600} />
+            <Page pageNumber={1} width={900} />
           </Document>
         </div>
 
