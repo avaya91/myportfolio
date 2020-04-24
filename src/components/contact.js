@@ -10,7 +10,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Avaya Dhakal</h2>
             <img
-              src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.15752-9/54217379_550822945321378_8073784788374257664_n.png?_nc_cat=102&_nc_ht=scontent-dfw5-2.xx&oh=29d137278328671a233fbf5d337cc6cf&oe=5D0EC7B9"
+              src="https://cdn0.iconfinder.com/data/icons/occupation-002/64/programmer-programming-occupation-avatar-512.png"
               alt="avatar"
               style={{height: '250px'}}
                />

@@ -12,7 +12,7 @@ render() {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src="https://us-central1-iconscout-1539.cloudfunctions.net/download?name=Avatar&download=1&url=https%3A%2F%2Fs3.amazonaws.com%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fsvg%2F456322.svg%3FX-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Credential%3DAKIA4VMJAKC54WWWCYMY%252F20200424%252Fus-east-1%252Fs3%252Faws4_request%26X-Amz-Date%3D20200424T093012Z%26X-Amz-SignedHeaders%3Dhost%26X-Amz-Expires%3D259200%26X-Amz-Signature%3Dbcfa8e230fa41d1ca841bdf8e9ba79f2919dcb247a58cb5a1fc7c9e5110bf275"
                 alt="avatar"
                 style={{height: '200px'}}
                  />
